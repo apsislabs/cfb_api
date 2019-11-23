@@ -1,4 +1,4 @@
-# CFB API Client
+# CFB API Client [![Build Status](https://travis-ci.org/apsislabs/cfb_api.svg?branch=master)](https://travis-ci.org/apsislabs/cfb_api)
 
 A Ruby client for the `collegefootballapi`. API Specs can be found [here](https://api.collegefootballdata.com/api/docs/?url=/api-docs.json#/).
 
