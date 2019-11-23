@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.collegefootballdata.com/games?id=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-type:
+      - application/json
+      User-Agent:
+      - Faraday v0.17.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.14.0 (Ubuntu)
+      date:
+      - Sat, 23 Nov 2019 01:09:12 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '356'
+      connection:
+      - close
+      x-dns-prefetch-control:
+      - 'off'
+      x-frame-options:
+      - SAMEORIGIN
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-download-options:
+      - noopen
+      x-content-type-options:
+      - nosniff
+      x-xss-protection:
+      - 1; mode=block
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"164-40a/rufMKVAns/wXxoLh52W4NjY"
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"season":1869,"week":1,"season_type":"regular","start_date":"1869-11-06T00:00:00.000Z","neutral_site":false,"conference_game":null,"attendance":null,"venue_id":null,"venue":null,"home_team":"Rutgers","home_conference":null,"home_points":6,"home_line_scores":[],"away_team":"Princeton","away_conference":null,"away_points":4,"away_line_scores":[]}]'
+    http_version: 
+  recorded_at: Sat, 23 Nov 2019 01:09:12 GMT
+recorded_with: VCR 3.0.3

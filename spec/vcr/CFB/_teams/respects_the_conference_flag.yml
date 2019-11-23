@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.collegefootballdata.com/teams?conference=AAC
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-type:
+      - application/json
+      User-Agent:
+      - Faraday v0.17.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.14.0 (Ubuntu)
+      date:
+      - Sat, 23 Nov 2019 01:09:01 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '4084'
+      connection:
+      - close
+      x-dns-prefetch-control:
+      - 'off'
+      x-frame-options:
+      - SAMEORIGIN
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-download-options:
+      - noopen
+      x-content-type-options:
+      - nosniff
+      x-xss-protection:
+      - 1; mode=block
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"ff4-xpvjZfehEeiHLKIpsURYbO8mYyU"
+    body:
+      encoding: UTF-8
+      string: '[{"id":2132,"school":"Cincinnati","mascot":"Bearcats","abbreviation":"CIN","alt_name1":null,"alt_name2":"CIN","alt_name3":"Cincinnati","conference":"American
+        Athletic","division":"East","color":"#000000","alt_color":"#717073","logos":["http://a.espncdn.com/i/teamlogos/ncaa/500/2132.png","http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2132.png"]},{"id":41,"school":"Connecticut","mascot":"Huskies","abbreviation":"CONN","alt_name1":null,"alt_name2":"CONN","alt_name3":"UConn","conference":"American
+        Athletic","division":"East","color":"#001d40","alt_color":"#f1f2f3","logos":["http://a.espncdn.com/i/teamlogos/ncaa/500/41.png","http://a.espncdn.com/i/teamlogos/ncaa/500-dark/41.png"]},{"id":151,"school":"East
+        Carolina","mascot":"Pirates","abbreviation":"ECU","alt_name1":null,"alt_name2":"ECU","alt_name3":"ECU","conference":"American
+        Athletic","division":"East","color":"#4b1869","alt_color":"#f0907b","logos":["http://a.espncdn.com/i/teamlogos/ncaa/500/151.png","http://a.espncdn.com/i/teamlogos/ncaa/500-dark/151.png"]},{"id":248,"school":"Houston","mascot":"Cougars","abbreviation":"HOU","alt_name1":null,"alt_name2":"HOU","alt_name3":"Houston","conference":"American
+        Athletic","division":"West","color":"#C90822","alt_color":"#231f20","logos":["http://a.espncdn.com/i/teamlogos/ncaa/500/248.png","http://a.espncdn.com/i/teamlogos/ncaa/500-dark/248.png"]},{"id":235,"school":"Memphis","mascot":"Tigers","abbreviation":"MEM","alt_name1":null,"alt_name2":"MEM","alt_name3":"Memphis","conference":"American
+        Athletic","division":"West","color":"#002447","alt_color":"#231f20","logos":["http://a.espncdn.com/i/teamlogos/ncaa/500/235.png","http://a.espncdn.com/i/teamlogos/ncaa/500-dark/235.png"]},{"id":2426,"school":"Navy","mascot":"Midshipmen","abbreviation":"NAVY","alt_name1":null,"alt_name2":"NAVY","alt_name3":"Navy","conference":"American
+        Athletic","division":"West","color":"#131630","alt_color":"#b6a77c","logos":["http://a.espncdn.com/i/teamlogos/ncaa/500/2426.png","http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2426.png"]},{"id":2567,"school":"SMU","mascot":"Mustangs","abbreviation":"SMU","alt_name1":"Southern
+        Methodist","alt_name2":"SMU","alt_name3":"SMU","conference":"American Athletic","division":"West","color":"#E32F38","alt_color":"#ecdcb9","logos":["http://a.espncdn.com/i/teamlogos/ncaa/500/2567.png","http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2567.png"]},{"id":58,"school":"South
+        Florida","mascot":"Bulls","abbreviation":"USF","alt_name1":null,"alt_name2":"USF","alt_name3":"USF","conference":"American
+        Athletic","division":"East","color":"#004A36","alt_color":"#231f20","logos":["http://a.espncdn.com/i/teamlogos/ncaa/500/58.png","http://a.espncdn.com/i/teamlogos/ncaa/500-dark/58.png"]},{"id":218,"school":"Temple","mascot":"Owls","abbreviation":"TEM","alt_name1":null,"alt_name2":"TEM","alt_name3":"Temple","conference":"American
+        Athletic","division":"East","color":"#A80532","alt_color":"#a7a9ac","logos":["http://a.espncdn.com/i/teamlogos/ncaa/500/218.png","http://a.espncdn.com/i/teamlogos/ncaa/500-dark/218.png"]},{"id":2655,"school":"Tulane","mascot":"Green
+        Wave","abbreviation":"TULN","alt_name1":null,"alt_name2":"TULN","alt_name3":"Tulane","conference":"American
+        Athletic","division":"West","color":"#005837","alt_color":"#3baf29","logos":["http://a.espncdn.com/i/teamlogos/ncaa/500/2655.png","http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2655.png"]},{"id":202,"school":"Tulsa","mascot":"Golden
+        Hurricane","abbreviation":"TLSA","alt_name1":null,"alt_name2":"TLSA","alt_name3":"Tulsa","conference":"American
+        Athletic","division":"West","color":"#004371","alt_color":"#ee3b33","logos":["http://a.espncdn.com/i/teamlogos/ncaa/500/202.png","http://a.espncdn.com/i/teamlogos/ncaa/500-dark/202.png"]},{"id":2116,"school":"UCF","mascot":"Knights","abbreviation":"UCF","alt_name1":"Central
+        Florida","alt_name2":"UCF","alt_name3":"UCF","conference":"American Athletic","division":"East","color":"#000000","alt_color":"#231f20","logos":["http://a.espncdn.com/i/teamlogos/ncaa/500/2116.png","http://a.espncdn.com/i/teamlogos/ncaa/500-dark/2116.png"]}]'
+    http_version: 
+  recorded_at: Sat, 23 Nov 2019 01:09:01 GMT
+recorded_with: VCR 3.0.3

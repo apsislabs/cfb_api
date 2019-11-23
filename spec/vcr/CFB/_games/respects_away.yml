@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.collegefootballdata.com/games?away=Oregon&seasonType=regular&year=2018
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-type:
+      - application/json
+      User-Agent:
+      - Faraday v0.17.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.14.0 (Ubuntu)
+      date:
+      - Sat, 23 Nov 2019 01:09:11 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '2011'
+      connection:
+      - close
+      x-dns-prefetch-control:
+      - 'off'
+      x-frame-options:
+      - SAMEORIGIN
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-download-options:
+      - noopen
+      x-content-type-options:
+      - nosniff
+      x-xss-protection:
+      - 1; mode=block
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"7db-O6XvWluOZXXjiek9qtRpCVUwRNM"
+    body:
+      encoding: UTF-8
+      string: '[{"id":401012757,"season":2018,"week":5,"season_type":"regular","start_date":"2018-09-30T02:30:00.000Z","neutral_site":false,"conference_game":true,"attendance":0,"venue_id":3831,"venue":"California
+        Memorial Stadium","home_team":"California","home_conference":"Pac-12","home_points":24,"home_line_scores":[3,7,7,7],"away_team":"Oregon","away_conference":"Pac-12","away_points":42,"away_line_scores":[7,21,7,7]},{"id":401012773,"season":2018,"week":8,"season_type":"regular","start_date":"2018-10-20T23:30:00.000Z","neutral_site":false,"conference_game":true,"attendance":0,"venue_id":3820,"venue":"Martin
+        Stadium","home_team":"Washington State","home_conference":"Pac-12","home_points":34,"home_line_scores":[7,20,0,7],"away_team":"Oregon","away_conference":"Pac-12","away_points":20,"away_line_scores":[0,0,17,3]},{"id":401012775,"season":2018,"week":9,"season_type":"regular","start_date":"2018-10-28T02:30:00.000Z","neutral_site":false,"conference_game":true,"attendance":0,"venue_id":3619,"venue":"Arizona
+        Stadium","home_team":"Arizona","home_conference":"Pac-12","home_points":44,"home_line_scores":[10,13,14,7],"away_team":"Oregon","away_conference":"Pac-12","away_points":15,"away_line_scores":[0,8,0,7]},{"id":401012789,"season":2018,"week":11,"season_type":"regular","start_date":"2018-11-10T22:30:00.000Z","neutral_site":false,"conference_game":true,"attendance":0,"venue_id":587,"venue":"Rice-Eccles
+        Stadium","home_team":"Utah","home_conference":"Pac-12","home_points":32,"home_line_scores":[10,9,3,10],"away_team":"Oregon","away_conference":"Pac-12","away_points":25,"away_line_scores":[0,7,10,8]},{"id":401012797,"season":2018,"week":13,"season_type":"regular","start_date":"2018-11-23T21:00:00.000Z","neutral_site":false,"conference_game":true,"attendance":0,"venue_id":3893,"venue":"Reser
+        Stadium","home_team":"Oregon State","home_conference":"Pac-12","home_points":15,"home_line_scores":[0,3,6,6],"away_team":"Oregon","away_conference":"Pac-12","away_points":55,"away_line_scores":[14,7,13,21]}]'
+    http_version: 
+  recorded_at: Sat, 23 Nov 2019 01:09:11 GMT
+recorded_with: VCR 3.0.3

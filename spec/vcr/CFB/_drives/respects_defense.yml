@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.collegefootballdata.com/drives?defense=Oregon&seasonType=regular&week=1&year=2019
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-type:
+      - application/json
+      User-Agent:
+      - Faraday v0.17.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.14.0 (Ubuntu)
+      date:
+      - Sat, 23 Nov 2019 01:17:18 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '5269'
+      connection:
+      - close
+      x-dns-prefetch-control:
+      - 'off'
+      x-frame-options:
+      - SAMEORIGIN
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-download-options:
+      - noopen
+      x-content-type-options:
+      - nosniff
+      x-xss-protection:
+      - 1; mode=block
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"1495-YzeXwbt7X/wLqTqsEoLO4YSE93g"
+    body:
+      encoding: UTF-8
+      string: '[{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"4011107222","scoring":false,"start_period":1,"start_yardline":25,"start_time":{"minutes":10,"seconds":13},"end_period":1,"end_yardline":27,"end_time":{"minutes":8,"seconds":34},"elapsed":{"minutes":1,"seconds":39},"plays":3,"yards":2,"drive_result":"PUNT"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"4011107224","scoring":true,"start_period":1,"start_yardline":20,"start_time":{"minutes":4,"seconds":42},"end_period":1,"end_yardline":78,"end_time":{"minutes":3,"seconds":17},"elapsed":{"minutes":1,"seconds":25},"plays":6,"yards":58,"drive_result":"FG"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"4011107226","scoring":false,"start_period":1,"start_yardline":20,"start_time":{"minutes":2,"seconds":11},"end_period":2,"end_yardline":85,"end_time":{"minutes":12,"seconds":31},"elapsed":{"minutes":4,"seconds":40},"plays":11,"yards":65,"drive_result":"INT"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"4011107228","scoring":false,"start_period":2,"start_yardline":13,"start_time":{"minutes":9,"seconds":16},"end_period":2,"end_yardline":41,"end_time":{"minutes":6,"seconds":31},"elapsed":{"minutes":2,"seconds":45},"plays":5,"yards":28,"drive_result":"PUNT"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"40111072210","scoring":true,"start_period":2,"start_yardline":97,"start_time":{"minutes":6,"seconds":15},"end_period":2,"end_yardline":93,"end_time":{"minutes":4,"seconds":41},"elapsed":{"minutes":1,"seconds":34},"plays":4,"yards":-4,"drive_result":"FG"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"40111072212","scoring":false,"start_period":2,"start_yardline":26,"start_time":{"minutes":2,"seconds":5},"end_period":2,"end_yardline":46,"end_time":{"minutes":1,"seconds":34},"elapsed":{"seconds":31},"plays":2,"yards":20,"drive_result":"INT"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"40111072214","scoring":false,"start_period":2,"start_yardline":74,"start_time":{"seconds":52,"minutes":0},"end_period":2,"end_yardline":76,"end_time":{"seconds":8,"minutes":0},"elapsed":{"seconds":44},"plays":7,"yards":2,"drive_result":"MISSED
+        FG"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"40111072216","scoring":false,"start_period":3,"start_yardline":25,"start_time":{"minutes":15,"seconds":0},"end_period":3,"end_yardline":26,"end_time":{"minutes":12,"seconds":51},"elapsed":{"minutes":2,"seconds":9},"plays":3,"yards":1,"drive_result":"PUNT"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"40111072218","scoring":false,"start_period":3,"start_yardline":25,"start_time":{"minutes":9,"seconds":23},"end_period":3,"end_yardline":36,"end_time":{"minutes":7,"seconds":2},"elapsed":{"minutes":2,"seconds":21},"plays":6,"yards":11,"drive_result":"PUNT"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"40111072220","scoring":true,"start_period":3,"start_yardline":42,"start_time":{"minutes":5,"seconds":31},"end_period":3,"end_yardline":100,"end_time":{"minutes":4,"seconds":20},"elapsed":{"minutes":1,"seconds":11},"plays":4,"yards":58,"drive_result":"TD"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"40111072222","scoring":false,"start_period":3,"start_yardline":20,"start_time":{"minutes":1,"seconds":48},"end_period":4,"end_yardline":38,"end_time":{"minutes":14,"seconds":15},"elapsed":{"minutes":2,"seconds":33},"plays":5,"yards":18,"drive_result":"PUNT"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"40111072224","scoring":true,"start_period":4,"start_yardline":31,"start_time":{"minutes":12,"seconds":44},"end_period":4,"end_yardline":100,"end_time":{"minutes":9,"seconds":48},"elapsed":{"minutes":2,"seconds":56},"plays":8,"yards":69,"drive_result":"TD"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"40111072226","scoring":false,"start_period":4,"start_yardline":42,"start_time":{"minutes":5,"seconds":30},"end_period":4,"end_yardline":42,"end_time":{"minutes":4,"seconds":31},"elapsed":{"seconds":59},"plays":3,"yards":0,"drive_result":"PUNT"},{"offense":"Auburn","offense_conference":"SEC","defense":"Oregon","defense_conference":"Pac-12","game_id":401110722,"id":"40111072228","scoring":true,"start_period":4,"start_yardline":40,"start_time":{"minutes":2,"seconds":14},"end_period":4,"end_yardline":100,"end_time":{"seconds":9,"minutes":0},"elapsed":{"minutes":2,"seconds":5},"plays":11,"yards":60,"drive_result":"TD"}]'
+    http_version: 
+  recorded_at: Sat, 23 Nov 2019 01:17:18 GMT
+recorded_with: VCR 3.0.3

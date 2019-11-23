@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.collegefootballdata.com/teams/matchup?maxYear=2000&minYear=1990&team1=Oregon&team2=Washington
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-type:
+      - application/json
+      User-Agent:
+      - Faraday v0.17.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.14.0 (Ubuntu)
+      date:
+      - Sat, 23 Nov 2019 01:09:06 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '2424'
+      connection:
+      - close
+      x-dns-prefetch-control:
+      - 'off'
+      x-frame-options:
+      - SAMEORIGIN
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-download-options:
+      - noopen
+      x-content-type-options:
+      - nosniff
+      x-xss-protection:
+      - 1; mode=block
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"978-9bP1tSktGFdLPDwn57fSzk17czo"
+    body:
+      encoding: UTF-8
+      string: '{"team1":"Oregon","team2":"Washington","startYear":"1990","endYear":"2000","team1Wins":5,"team2Wins":6,"ties":0,"games":[{"season":1990,"week":8,"seasonType":"regular","date":"1990-10-13T00:00:00.000Z","neutralSite":false,"venue":null,"homeTeam":"Washington","homeScore":38,"awayTeam":"Oregon","awayScore":17,"winner":"Washington"},{"season":1991,"week":9,"seasonType":"regular","date":"1991-10-26T00:00:00.000Z","neutralSite":false,"venue":null,"homeTeam":"Washington","homeScore":29,"awayTeam":"Oregon","awayScore":7,"winner":"Washington"},{"season":1992,"week":8,"seasonType":"regular","date":"1992-10-17T00:00:00.000Z","neutralSite":false,"venue":null,"homeTeam":"Oregon","homeScore":3,"awayTeam":"Washington","awayScore":24,"winner":"Washington"},{"season":1993,"week":9,"seasonType":"regular","date":"1993-10-23T00:00:00.000Z","neutralSite":false,"venue":null,"homeTeam":"Washington","homeScore":21,"awayTeam":"Oregon","awayScore":6,"winner":"Washington"},{"season":1994,"week":9,"seasonType":"regular","date":"1994-10-22T00:00:00.000Z","neutralSite":false,"venue":null,"homeTeam":"Oregon","homeScore":31,"awayTeam":"Washington","awayScore":20,"winner":"Oregon"},{"season":1995,"week":11,"seasonType":"regular","date":"1995-11-04T00:00:00.000Z","neutralSite":false,"venue":null,"homeTeam":"Washington","homeScore":22,"awayTeam":"Oregon","awayScore":24,"winner":"Oregon"},{"season":1996,"week":10,"seasonType":"regular","date":"1996-10-26T00:00:00.000Z","neutralSite":false,"venue":null,"homeTeam":"Oregon","homeScore":14,"awayTeam":"Washington","awayScore":33,"winner":"Washington"},{"season":1997,"week":12,"seasonType":"regular","date":"1997-11-08T00:00:00.000Z","neutralSite":false,"venue":null,"homeTeam":"Washington","homeScore":28,"awayTeam":"Oregon","awayScore":31,"winner":"Oregon"},{"season":1998,"week":11,"seasonType":"regular","date":"1998-11-07T00:00:00.000Z","neutralSite":false,"venue":null,"homeTeam":"Oregon","homeScore":27,"awayTeam":"Washington","awayScore":22,"winner":"Oregon"},{"season":1999,"week":6,"seasonType":"regular","date":"1999-10-02T00:00:00.000Z","neutralSite":false,"venue":null,"homeTeam":"Washington","homeScore":34,"awayTeam":"Oregon","awayScore":20,"winner":"Washington"},{"season":2000,"week":6,"seasonType":"regular","date":"2000-09-30T00:00:00.000Z","neutralSite":false,"venue":null,"homeTeam":"Oregon","homeScore":23,"awayTeam":"Washington","awayScore":16,"winner":"Oregon"}]}'
+    http_version: 
+  recorded_at: Sat, 23 Nov 2019 01:09:06 GMT
+recorded_with: VCR 3.0.3

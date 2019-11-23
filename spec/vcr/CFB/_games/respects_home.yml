@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.collegefootballdata.com/games?home=Oregon&seasonType=regular&year=2018
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-type:
+      - application/json
+      User-Agent:
+      - Faraday v0.17.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.14.0 (Ubuntu)
+      date:
+      - Sat, 23 Nov 2019 01:09:11 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '2821'
+      connection:
+      - close
+      x-dns-prefetch-control:
+      - 'off'
+      x-frame-options:
+      - SAMEORIGIN
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-download-options:
+      - noopen
+      x-content-type-options:
+      - nosniff
+      x-xss-protection:
+      - 1; mode=block
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"b05-TgVpspf/L8Uys6oaNqYyqhLcEeg"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siaWQiOjQwMTAxMjY4MSwic2Vhc29uIjoyMDE4LCJ3ZWVrIjoxLCJzZWFzb25fdHlwZSI6InJlZ3VsYXIiLCJzdGFydF9kYXRlIjoiMjAxOC0wOS0wMlQwMDowMDowMC4wMDBaIiwibmV1dHJhbF9zaXRlIjpmYWxzZSwiY29uZmVyZW5jZV9nYW1lIjpmYWxzZSwiYXR0ZW5kYW5jZSI6MCwidmVudWVfaWQiOjM2MjYsInZlbnVlIjoiQXV0emVuIFN0YWRpdW0iLCJob21lX3RlYW0iOiJPcmVnb24iLCJob21lX2NvbmZlcmVuY2UiOiJQYWMtMTIiLCJob21lX3BvaW50cyI6NTgsImhvbWVfbGluZV9zY29yZXMiOls3LDMwLDE0LDddLCJhd2F5X3RlYW0iOiJCb3dsaW5nIEdyZWVuIiwiYXdheV9jb25mZXJlbmNlIjoiTWlkLUFtZXJpY2FuIiwiYXdheV9wb2ludHMiOjI0LCJhd2F5X2xpbmVfc2NvcmVzIjpbMTAsNyw3LDBdfSx7ImlkIjo0MDEwMTI3MzEsInNlYXNvbiI6MjAxOCwid2VlayI6Miwic2Vhc29uX3R5cGUiOiJyZWd1bGFyIiwic3RhcnRfZGF0ZSI6IjIwMTgtMDktMDhUMTg6MDA6MDAuMDAwWiIsIm5ldXRyYWxfc2l0ZSI6ZmFsc2UsImNvbmZlcmVuY2VfZ2FtZSI6ZmFsc2UsImF0dGVuZGFuY2UiOjAsInZlbnVlX2lkIjozNjI2LCJ2ZW51ZSI6IkF1dHplbiBTdGFkaXVtIiwiaG9tZV90ZWFtIjoiT3JlZ29uIiwiaG9tZV9jb25mZXJlbmNlIjoiUGFjLTEyIiwiaG9tZV9wb2ludHMiOjYyLCJob21lX2xpbmVfc2NvcmVzIjpbMTQsMjEsMTQsMTNdLCJhd2F5X3RlYW0iOiJQb3J0bGFuZCBTdGF0ZSIsImF3YXlfY29uZmVyZW5jZSI6bnVsbCwiYXdheV9wb2ludHMiOjE0LCJhd2F5X2xpbmVfc2NvcmVzIjpbMCw3LDAsN119LHsiaWQiOjQwMTAxMjc0Mywic2Vhc29uIjoyMDE4LCJ3ZWVrIjozLCJzZWFzb25fdHlwZSI6InJlZ3VsYXIiLCJzdGFydF9kYXRlIjoiMjAxOC0wOS0xNVQyMTowMDowMC4wMDBaIiwibmV1dHJhbF9zaXRlIjpmYWxzZSwiY29uZmVyZW5jZV9nYW1lIjpmYWxzZSwiYXR0ZW5kYW5jZSI6MCwidmVudWVfaWQiOjM2MjYsInZlbnVlIjoiQXV0emVuIFN0YWRpdW0iLCJob21lX3RlYW0iOiJPcmVnb24iLCJob21lX2NvbmZlcmVuY2UiOiJQYWMtMTIiLCJob21lX3BvaW50cyI6MzUsImhvbWVfbGluZV9zY29yZXMiOlsxNCw3LDcsN10sImF3YXlfdGVhbSI6IlNhbiBKb3PDqSBTdGF0ZSIsImF3YXlfY29uZmVyZW5jZSI6Ik1vdW50YWluIFdlc3QiLCJhd2F5X3BvaW50cyI6MjIsImF3YXlfbGluZV9zY29yZXMiOlswLDYsNiwxMF19LHsiaWQiOjQwMTAxMjc0OSwic2Vhc29uIjoyMDE4LCJ3ZWVrIjo0LCJzZWFzb25fdHlwZSI6InJlZ3VsYXIiLCJzdGFydF9kYXRlIjoiMjAxOC0wOS0yM1QwMDowMDowMC4wMDBaIiwibmV1dHJhbF9zaXRlIjpmYWxzZSwiY29uZmVyZW5jZV9nYW1lIjp0cnVlLCJhdHRlbmRhbmNlIjowLCJ2ZW51ZV9pZCI6MzYyNiwidmVudWUiOiJBdXR6ZW4gU3RhZGl1bSIsImhvbWVfdGVhbSI6Ik9yZWdvbiIsImhvbWVfY29uZmVyZW5jZSI6IlBhYy0xMiIsImhvbWVfcG9pbnRzIjozMSwiaG9tZV9saW5lX3Njb3JlcyI6WzcsMTcsMCw3LDBdLCJhd2F5X3RlYW0iOiJTdGFuZm9yZCIsImF3YXlfY29uZmVyZW5jZSI6IlBhYy0xMiIsImF3YXlfcG9pbnRzIjozOCwiYXdheV9saW5lX3Njb3JlcyI6WzAsNywxNCwxMCw3XX0seyJpZCI6NDAxMDEyNzY2LCJzZWFzb24iOjIwMTgsIndlZWsiOjcsInNlYXNvbl90eXBlIjoicmVndWxhciIsInN0YXJ0X2RhdGUiOiIyMDE4LTEwLTEzVDE5OjMwOjAwLjAwMFoiLCJuZXV0cmFsX3NpdGUiOmZhbHNlLCJjb25mZXJlbmNlX2dhbWUiOnRydWUsImF0dGVuZGFuY2UiOjAsInZlbnVlX2lkIjozNjI2LCJ2ZW51ZSI6IkF1dHplbiBTdGFkaXVtIiwiaG9tZV90ZWFtIjoiT3JlZ29uIiwiaG9tZV9jb25mZXJlbmNlIjoiUGFjLTEyIiwiaG9tZV9wb2ludHMiOjMwLCJob21lX2xpbmVfc2NvcmVzIjpbMTAsNyw3LDAsNl0sImF3YXlfdGVhbSI6Ildhc2hpbmd0b24iLCJhd2F5X2NvbmZlcmVuY2UiOiJQYWMtMTIiLCJhd2F5X3BvaW50cyI6MjcsImF3YXlfbGluZV9zY29yZXMiOlsxMCw3LDcsMCwzXX0seyJpZCI6NDAxMDEyNzgyLCJzZWFzb24iOjIwMTgsIndlZWsiOjEwLCJzZWFzb25fdHlwZSI6InJlZ3VsYXIiLCJzdGFydF9kYXRlIjoiMjAxOC0xMS0wM1QyMzozMDowMC4wMDBaIiwibmV1dHJhbF9zaXRlIjpmYWxzZSwiY29uZmVyZW5jZV9nYW1lIjp0cnVlLCJhdHRlbmRhbmNlIjowLCJ2ZW51ZV9pZCI6MzYyNiwidmVudWUiOiJBdXR6ZW4gU3RhZGl1bSIsImhvbWVfdGVhbSI6Ik9yZWdvbiIsImhvbWVfY29uZmVyZW5jZSI6IlBhYy0xMiIsImhvbWVfcG9pbnRzIjo0MiwiaG9tZV9saW5lX3Njb3JlcyI6WzE0LDcsNywxNF0sImF3YXlfdGVhbSI6IlVDTEEiLCJhd2F5X2NvbmZlcmVuY2UiOiJQYWMtMTIiLCJhd2F5X3BvaW50cyI6MjEsImF3YXlfbGluZV9zY29yZXMiOlswLDcsNyw3XX0seyJpZCI6NDAxMDEyNzkzLCJzZWFzb24iOjIwMTgsIndlZWsiOjEyLCJzZWFzb25fdHlwZSI6InJlZ3VsYXIiLCJzdGFydF9kYXRlIjoiMjAxOC0xMS0xOFQwMzozMDowMC4wMDBaIiwibmV1dHJhbF9zaXRlIjpmYWxzZSwiY29uZmVyZW5jZV9nYW1lIjp0cnVlLCJhdHRlbmRhbmNlIjowLCJ2ZW51ZV9pZCI6MzYyNiwidmVudWUiOiJBdXR6ZW4gU3RhZGl1bSIsImhvbWVfdGVhbSI6Ik9yZWdvbiIsImhvbWVfY29uZmVyZW5jZSI6IlBhYy0xMiIsImhvbWVfcG9pbnRzIjozMSwiaG9tZV9saW5lX3Njb3JlcyI6WzcsMjEsMCwzXSwiYXdheV90ZWFtIjoiQXJpem9uYSBTdGF0ZSIsImF3YXlfY29uZmVyZW5jZSI6IlBhYy0xMiIsImF3YXlfcG9pbnRzIjoyOSwiYXdheV9saW5lX3Njb3JlcyI6WzMsMTAsMywxM119XQ==
+    http_version: 
+  recorded_at: Sat, 23 Nov 2019 01:09:11 GMT
+recorded_with: VCR 3.0.3
